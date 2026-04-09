@@ -4,10 +4,10 @@ def armstrong_number(num):
     
     while a>0:
         rem=a%10
-        print(rem)
+        
         a=a//10
         x+=rem**3
-        print(x)
+        
     
     return x==num
 
